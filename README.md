@@ -1,5 +1,6 @@
 **FIFA Playwright Test Project**
-Project Overview
+
+**Project Overview**
 This project is an automated testing suite built using Playwright, designed to test the FIFA website Homepage. The goal is to ensure the website's functionality, and user interface are operating as expected.
 
 **Features**
