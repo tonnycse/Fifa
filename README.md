@@ -12,7 +12,7 @@ This project uses Playwright with TypeScript to automate testing of the FIFA hom
 
 git clone <repository-url> && cd fifa-homepage-playwright-tests
 
-**2.Install dependencies:**
+**2. Install dependencies:**
 
 - npm install
 - npx playwright install
