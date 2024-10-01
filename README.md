@@ -44,19 +44,11 @@ fifa-homepage-playwright-tests/
 
 └── package.json           # NPM config
 
-**Writing Tests**
+**Running Tests**
 
-Create new .spec.ts files in the tests directory:
+To run the tests:
 
-import { test, expect } from '@playwright/test';
-
-test('Verify FIFA homepage title', async ({ page }) => {
-
-  await page.goto('https://www.fifa.com/en/home');
-  
-  await expect(page).toHaveTitle(/FIFA/);
-  
-});
+npx playwright test
 
 **Reporting**
 
