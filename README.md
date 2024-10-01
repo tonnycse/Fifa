@@ -4,8 +4,9 @@ This project uses Playwright with TypeScript to automate testing of the FIFA hom
 
 **Prerequisites**
 
-- Node.js (v14+)
+- Node.js 
 - npm
+- VS Code
   
 **Installation**
 
@@ -16,21 +17,7 @@ git clone https://github.com/tonnycse/Fifa && cd Fifa
 **2. Install dependencies:**
 
 - npm install
-- npx playwright install
-
-**Running Tests**
-
-**1. All Tests:**
-
-npx playwright test
-
-**2. Specific Test:**
-
-npx playwright test tests/homepage.spec.ts
-
-**3. Headed Mode:**
-
-npx playwright test --headed
+- npm init playwright@latest
 
 **Project Structure**
 
@@ -46,9 +33,25 @@ fifa-homepage-playwright-tests/
 
 **Running Tests**
 
-To run the tests:
+**1. All Tests:**
 
 npx playwright test
+
+**2. Specific Test:**
+
+npx playwright test tests/homepage.spec.ts
+
+**3. Headed Mode:**
+
+npx playwright test --headed
+
+**4. UI Mode:**
+
+npx playwright test --ui
+
+**5. Run Test on Different Browsers:**
+
+npx playwright test --project webkit [Used Webkit As Example]
 
 **Reporting**
 
