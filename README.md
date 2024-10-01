@@ -1,4 +1,5 @@
 **FIFA Homepage Testing with Playwright (TypeScript)**
+
 This project uses Playwright with TypeScript to automate testing of the FIFA homepage. It is part of a personal portfolio to demonstrate testing skills.
 
 **Prerequisites**
