@@ -11,7 +11,7 @@ This project uses Playwright with TypeScript to automate testing of the FIFA hom
 
 **1. Clone the repo:**
 
-git clone <repository-url> && cd fifa-homepage-playwright-tests
+git clone https://github.com/tonnycse/Fifa && cd Fifa
 
 **2. Install dependencies:**
 
