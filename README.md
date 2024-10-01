@@ -3,6 +3,7 @@
 This project uses Playwright with TypeScript to automate testing of the FIFA homepage. It is part of a personal portfolio to demonstrate testing skills.
 
 **Prerequisites**
+
 - Node.js (v14+)
 - npm
   
@@ -18,6 +19,7 @@ git clone <repository-url> && cd fifa-homepage-playwright-tests
 - npx playwright install
 
 **Running Tests**
+
 **1. All Tests:**
 
 npx playwright test
@@ -27,6 +29,7 @@ npx playwright test
 npx playwright test tests/homepage.spec.ts
 
 **3. Headed Mode:**
+
 npx playwright test --headed
 
 **Project Structure**
@@ -42,6 +45,7 @@ fifa-homepage-playwright-tests/
 └── package.json           # NPM config
 
 **Writing Tests**
+
 Create new .spec.ts files in the tests directory:
 
 import { test, expect } from '@playwright/test';
