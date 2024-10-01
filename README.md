@@ -1,12 +1,45 @@
-**FIFA Playwright Test Project**
+**FIFA Homepage Testing with Playwright (TypeScript)**
+This project uses Playwright with TypeScript to automate testing of the FIFA homepage. It is part of a personal portfolio to demonstrate testing skills.
 
-**Project Overview**
-This project is an automated testing suite built using Playwright, designed to test the FIFA website Homepage. The goal is to ensure the website's functionality, and user interface are operating as expected.
+**Prerequisites**
+- Node.js (v14+)
+- npm
+  
+**Installation**
 
-**Features**
-- Automated end-to-end testing with Playwright
-- Test scripts written in TypeScript
-- Configurable test environment
-- Cross-browser testing (Chromium, Firefox, and WebKit)
-- Screenshots and video recording on test failure
-- Parallel test execution
+**Clone the repo:**
+git clone <repository-url> && cd fifa-homepage-playwright-tests
+
+**Install dependencies:**
+npm install
+npx playwright install
+
+**Running Tests**
+npx playwright test
+
+**Specific Test:**
+npx playwright test tests/homepage.spec.ts
+
+**Headed Mode:**
+npx playwright test --headed
+
+**Project Structure**
+fifa-homepage-playwright-tests/
+  ├── tests/                 # Test scripts (TypeScript files)
+  ├── playwright.config.ts   # Playwright config
+  ├── README.md              # Project documentation
+  └── package.json           # NPM config
+
+**Writing Tests**
+Create new .spec.ts files in the tests directory:
+
+import { test, expect } from '@playwright/test';
+
+test('Verify FIFA homepage title', async ({ page }) => {
+  await page.goto('https://www.fifa.com/en/home');
+  await expect(page).toHaveTitle(/FIFA/);
+});
+
+**Reporting**
+To view a detailed HTML report:
+npx playwright show-report
