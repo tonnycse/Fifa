@@ -25,11 +25,16 @@ npx playwright test tests/homepage.spec.ts
 npx playwright test --headed
 
 **Project Structure**
+
 fifa-homepage-playwright-tests/
-  - ├── tests/                 # Test scripts (TypeScript files)
-  - ├── playwright.config.ts   # Playwright config
-  - ├── README.md              # Project documentation
-  - └── package.json           # NPM config
+
+├── tests/                 # Test scripts (TypeScript files)
+
+├── playwright.config.ts   # Playwright config
+
+├── README.md              # Project documentation
+
+└── package.json           # NPM config
 
 **Writing Tests**
 Create new .spec.ts files in the tests directory:
