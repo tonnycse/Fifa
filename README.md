@@ -8,20 +8,25 @@ This project uses Playwright with TypeScript to automate testing of the FIFA hom
   
 **Installation**
 
-**Clone the repo:**
+**1. Clone the repo:**
+
 git clone <repository-url> && cd fifa-homepage-playwright-tests
 
-**Install dependencies:**
+**2.Install dependencies:**
+
 - npm install
 - npx playwright install
 
 **Running Tests**
+**1. All Tests:**
+
 npx playwright test
 
-**Specific Test:**
+**2. Specific Test:**
+
 npx playwright test tests/homepage.spec.ts
 
-**Headed Mode:**
+**3. Headed Mode:**
 npx playwright test --headed
 
 **Project Structure**
