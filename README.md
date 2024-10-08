@@ -12,7 +12,7 @@ This project uses Playwright with TypeScript to automate testing of the FIFA hom
 
 **1. Clone the repo:**
 
-git clone https://github.com/tonnycse/Fifa && cd Fifa
+git clone https://github.com/tonnycse/Fifa 
 
 **2. Install dependencies:**
 
